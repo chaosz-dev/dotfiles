@@ -118,12 +118,6 @@
     ];
   };
 
-  #programs.bash.initExtra = ''
-  #  . ~/gitPrompt.sh
-  #  export GIT_PS1_SHOWDIRTYSTATE=1
-  #  export PS1='\w$(__git_ps1 " (%s)")\$ '
-  # '';
-
   programs.steam = {
     enable = true;
     remotePlay.openFirewall = true;
@@ -213,7 +207,6 @@
     xdg-desktop-portal-gtk
     polkit-kde-agent
     neofetch
-    virtualbox
   ];
 
   system.autoUpgrade = {
