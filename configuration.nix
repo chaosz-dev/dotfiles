@@ -118,6 +118,12 @@
     ];
   };
 
+  #programs.bash.initExtra = ''
+  #  . ~/gitPrompt.sh
+  #  export GIT_PS1_SHOWDIRTYSTATE=1
+  #  export PS1='\w$(__git_ps1 " (%s)")\$ '
+  # '';
+
   programs.steam = {
     enable = true;
     remotePlay.openFirewall = true;
@@ -134,7 +140,13 @@
     home.packages = with pkgs; [
 	git
     ];
-    programs.bash.enable = true;
+    programs.bash = {
+      enable = true;
+      initExtra = ''
+        source ~/.git-colorful.sh
+      '';
+    };    
+
     programs.alacritty = {
       enable = true;
       settings = {
@@ -201,6 +213,7 @@
     xdg-desktop-portal-gtk
     polkit-kde-agent
     neofetch
+    virtualbox
   ];
 
   system.autoUpgrade = {
