@@ -101,7 +101,7 @@
   users.users.chaosz = {
     isNormalUser = true;
     description = "chaosz";
-    extraGroups = [ "networkmanager" "wheel" ];
+    extraGroups = [ "networkmanager" "wheel" "vboxusers"  ];
     packages = with pkgs; [
       firefox
       vim
@@ -137,7 +137,8 @@
     programs.bash = {
       enable = true;
       initExtra = ''
-        source ~/.git-colorful.sh
+        source ~/dotfiles/scripts/.git-colorful.sh
+        source ~/dotfiles/scripts/walrusScripts.sh
       '';
     };    
 
@@ -188,8 +189,15 @@
     vim
     wget
     pkg-config
+    gcc
+    gcc_multi
+    pkgsi686Linux.gcc
+    pkgsi686Linux.glib
+    pkgsi686Linux.glibc
+    pkgsi686Linux.glibc_multi
     glib
     glibc
+    glibc_multi
     gobject-introspection
     cmake
     ninja
@@ -214,6 +222,10 @@
     dates = "weekly";
     allowReboot = true;
   };
+
+  virtualisation.virtualbox.host.enable = true;
+  virtualisation.virtualbox.guest.enable = true;
+  nixpkgs.config.virtualbox.enableExtensionPack = true;
 
   # Some programs need SUID wrappers, can be configured further or are
   # started in user sessions.
