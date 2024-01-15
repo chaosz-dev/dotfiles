@@ -1,0 +1,19 @@
+ignore-empty-password
+
+clock
+timestr=%R
+datestr=%a, %e, of %B 
+
+# screenshots
+image=/home/chaosz/.config/swaylock/moon.jpg
+grace=3
+grace-no-mouse
+grace-no-touch
+
+effect-blur=20x2
+
+indicator
+indicator-radius=100
+indicator-caps-lock
+ring-color=8D8D8D
+key-hl-color=FFFFFF
