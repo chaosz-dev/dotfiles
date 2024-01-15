@@ -1,0 +1,53 @@
+configuration {
+  modes: [ combi ];
+  combi-modes: [ window, drun, run  ];
+}
+
+@theme "/dev/null"
+
+inputbar {
+  children: [textbox-search, entry, prompt, num-filtered-rows];
+}
+
+textbox-search {
+  expand: false;
+  text-color: @text;
+  content: "Search: ";
+}
+
+entry, prompt, num-filtered-rows {
+  text-color: @text;
+}
+
+element {
+  orientation: horizontal;
+  children: [ element-icon, element-text  ];
+  spacing: 5px;
+}
+
+element-text selected {
+  text-color: @text;
+}
+
+element-icon {
+  size: 1.5em;
+}
+
+window {
+  width: var(width, 25%);
+  height: var(height, 30%);
+}
+
+* {
+  text: antiquewhite;
+
+
+  background-color: rgba(0, 0, 0, 0.15);
+  margin: 0px;
+  padding: 0px;
+  spacing: 0px;
+  //background-color: transparent;
+  text-color: grey;
+  highlight: bold;
+}
+
