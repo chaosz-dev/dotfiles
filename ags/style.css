@@ -1,27 +1,58 @@
-* {
-  /*background-color: black;*/
-  color: white;
-  padding-right: 5px;
-}
-
 .clock {
   font-variant: small-caps;
   letter-spacing: 1px;
   font-size: 120%;
 }
 
-.moon {
-  background-color: black;
+* {
+  padding-right: 3px;
 }
 
-.volume {
-  color: white;
+.settings { 
+  border-radius: 10px;
+  background-color: black;
+  border-color: #282828;
+  border-style: solid;
+  border-width: 2px;
+}
+
+.sysbutton {
+  margin-left: 15px;
+  margin-right: 15px;
+  margin-bottom: 10px;
+  margin-top: 5px;
+  padding: 0px;
+  background-color: black;
+  border-width: 0px;
+  border-color: transparent;
+}
+
+.sysicon {
+  padding: 0px;
+  font-size: 15px;
+  border-color: #282828;
+  border-width: 2px;
+  border-style: solid;
+  background-color: antiquewhite;
+}
+
+slider {
+  all: unset;
+}
+
+.slider highlight {
+  background-color: antiquewhite;
 }
 
 button {
-  padding: 0;
-  margin: 0;
-  border: 0;
-  min-width: 30px;
-  min-height: 30px;
+  background-image: none;
+  border: none;
+}
+
+.wifi_button:hover {
+  color: darkgrey;
+}
+
+.menu_box {
+  margin: 10px;
 }
