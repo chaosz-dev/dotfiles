@@ -16,6 +16,7 @@
   # Bootloader.
   boot.loader.systemd-boot.enable = true;
   boot.loader.efi.canTouchEfiVariables = true;
+  boot.supportedFilesystems = [ "ntfs"  ];
 
   networking.hostName = "tartarus"; # Define your hostname.
   # networking.wireless.enable = true;  # Enables wireless support via wpa_supplicant.
@@ -115,6 +116,9 @@
       microsoft-edge
       google-chrome
       spotify	
+      clang-tools
+      obsidian
+      heroic
     ];
   };
 
@@ -179,7 +183,9 @@
 
   # Allow unfree packages
   nixpkgs.config.allowUnfree = true;
-
+  nixpkgs.config.permittedInsecurePackages = [
+    "electron-25.9.0"
+  ];
   # List packages installed in system profile. To search, run:
   # $ nix search wget
   environment.systemPackages = with pkgs; [
@@ -191,10 +197,6 @@
     pkg-config
     gcc
     gcc_multi
-    pkgsi686Linux.gcc
-    pkgsi686Linux.glib
-    pkgsi686Linux.glibc
-    pkgsi686Linux.glibc_multi
     glib
     glibc
     glibc_multi
@@ -215,6 +217,16 @@
     xdg-desktop-portal-gtk
     polkit-kde-agent
     neofetch
+    neovim
+    brightnessctl
+    appimage-run
+    swaylock-effects
+    wlogout
+    swayidle
+    texliveFull
+    python3
+    gdb
+    cgdb
   ];
 
   system.autoUpgrade = {
@@ -222,6 +234,8 @@
     dates = "weekly";
     allowReboot = true;
   };
+
+  security.pam.services.swaylock.fprintAuth = false;
 
   virtualisation.virtualbox.host.enable = true;
   virtualisation.virtualbox.guest.enable = true;
