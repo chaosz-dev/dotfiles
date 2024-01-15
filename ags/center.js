@@ -8,7 +8,7 @@ export const time = () =>
     children: [
       Widget.Label({
         connections: [
-          [1000, self => { execAsync('date').then(date => self.label = " " + date + " ") }],
+          [1000, self => { execAsync(['date']).then(date => self.label = " " + date + " ") }],
         ]
       }),
     ]

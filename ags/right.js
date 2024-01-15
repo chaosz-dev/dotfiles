@@ -20,7 +20,7 @@ export const battery = () => Widget.Box({
       connections: [[Battery, self => {
         if (Battery.charging)
           self.icon = upIcon;
-        else if (Battery.percent < 30)
+        else if (Battery.percent < 30 && Battery.percent > 0)
           self.icon = warnIcon;
         else self.icon = '';
       }]]
@@ -28,12 +28,14 @@ export const battery = () => Widget.Box({
     Widget.Label({
       connections: [
         [Battery, self => {
-          self.label = Battery.percent + '%';
+          Battery.percent < 0 ? self.label = '' : self.label = Battery.percent + '%';
         }]],
     }),
     Widget.Icon({
       connections: [[Battery, self => {
-        self.icon = `battery-level-${Math.floor(Battery.percent / 10) * 10}-symbolic`;
+        Battery.percent < 0 ?
+          self.icon = 'gnome-power-manager-symbolic' :
+          self.icon = `battery-level-${Math.floor(Battery.percent / 10) * 10}-symbolic`;
       }]],
     }),
   ],
