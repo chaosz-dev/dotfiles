@@ -24,8 +24,23 @@ const right = () => Widget.Box({
   ],
 })
 
-const widgets = (monitor = 0) => Widget.Window({
-  name: 'bar-${monitor}',
+const secondaryMonitor = (monitor = 0) => Widget.Window({
+	name: `bar-${monitor}`,
+	className: 'bar',
+  monitor,
+	anchor: ['left', 'top', 'right'],
+	exclusivity: 'exclusive',
+	child: Widget.CenterBox({
+		startWidget: Widget.Box({
+			children: [
+				workspace_num(),
+			]
+		}),
+	})
+})
+
+const widgets = (monitor = 1) => Widget.Window({
+  name: `bar-${monitor}`,
   className: 'bar',
   monitor,
   anchor: ['left', 'top', 'right'],
@@ -41,6 +56,7 @@ export default {
   style: '/home/chaosz/.config/ags/style.css',
   windows: [
     widgets(),
+		secondaryMonitor(),
     settings_menu,
     network_menu,
   ]
