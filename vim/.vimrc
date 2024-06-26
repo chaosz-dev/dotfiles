@@ -22,7 +22,9 @@ highlight LineNr ctermfg=grey
 highlight TabLine ctermbg=none ctermfg=blue
 highlight TabLineFill ctermbg=none ctermfg=none cterm=none
 highlight Pmenu ctermfg=brown ctermbg=none guibg=black
-highlight CursorLine cterm=none
+highlight PmenuSbar ctermbg=black
+highlight PmenuThumb ctermbg=white
+highlight CursorLine cterm=bold
 highlight CursorLineNR cterm=bold ctermfg=white
 
 " highlight for cpp stuff
@@ -101,4 +103,31 @@ function! SynStack()
   endif
   echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
 endfunc
+
+" scroll popup windows with keybindings
+function! ScrollPopup(nlines)
+    let winids = popup_list()
+    if len(winids) == 0
+        return
+    endif
+
+    " Ignore hidden popups
+    let prop = popup_getpos(winids[0])
+    if prop.visible != 1
+        return
+    endif
+
+    let firstline = prop.firstline + a:nlines
+    let buf_lastline = str2nr(trim(win_execute(winids[0], "echo line('$')")))
+    if firstline < 1
+        let firstline = 1
+    elseif prop.lastline + a:nlines > buf_lastline
+        let firstline = buf_lastline + prop.firstline - prop.lastline
+    endif
+
+    call popup_setoptions(winids[0], {'firstline': firstline})
+endfunction
+
+nnoremap <C-Up> :call ScrollPopup(-3)<CR>
+nnoremap <C-Down> :call ScrollPopup(3)<CR>
 

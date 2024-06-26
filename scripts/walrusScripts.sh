@@ -1,3 +1,5 @@
+#!/bin/bash
+
 # walrusGen <debug/release> <architecture>
 walrusGen() {
 

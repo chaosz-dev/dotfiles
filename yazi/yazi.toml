@@ -1,0 +1,11 @@
+[manager]
+show_hidden = true
+sort_by = "natural"
+sort_dir_first = true
+show_symlink = true
+ratio = [3, 5, 2]
+
+[opener]
+edit = [
+  {run = 'alacritty -e vim "$@"', block = false, orphan = true, desc = "Open in vim"},
+]
