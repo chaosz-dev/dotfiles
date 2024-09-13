@@ -15,6 +15,7 @@ set backspace=indent,eol,start
 set tags+=tags,./tags;/$HOME
 set cursorline
 set updatetime=100
+set t_Co=256
 
 " usual highlights
 
@@ -38,12 +39,6 @@ highlight GitGutterChange ctermfg=yellow
 " let
 let NERDTreeShowHidden=1
 
-" vim-cpp-modern settings
-" let g:cpp_function_highlight=1
-" let g:cpp_member_highlight=1
-" let g:cpp_attributes_highlight = 1
-" let g:cpp_simple_highlight = 0
-
 " vim-cpp-enchanced-highlight settings
 let g:cpp_class_scope_highlight = 1
 let g:cpp_member_variable_highlight = 1
@@ -65,14 +60,19 @@ let g:rainbow_conf = {
 nnoremap <C-Left> :tabprevious<CR>
 nnoremap <C-Right> :tabnext<CR>
 
+"Paste in visual mode without copying
+xnoremap p pgvy
+
 nnoremap f :tab split \| YcmCompleter GoToReferences<CR>
+
+nnoremap <C-Up> :call ScrollPopup(-3)<CR>
+nnoremap <C-Down> :call ScrollPopup(3)<CR>
 
 " plugins
 call plug#begin()
 Plug 'preservim/nerdtree'
 Plug 'valloric/youcompleteme'
 Plug 'Yggdroot/indentLine'
-" Plug 'bfrg/vim-cpp-modern'
 Plug 'octol/vim-cpp-enhanced-highlight'
 Plug 'tribela/vim-transparent'
 Plug 'vim-airline/vim-airline'
@@ -80,6 +80,15 @@ Plug 'luochen1990/rainbow'
 Plug 'ap/vim-css-color'
 Plug 'airblade/vim-gitgutter'
 call plug#end()
+
+" To work nice with tmux
+if &term =~ '^screen'
+  " tmux will send xterm-style keys when xterm-keys is on
+  execute "set <xUp>=\e[1;*A"
+  execute "set <xDown>=\e[1;*B"
+  execute "set <xRight>=\e[1;*C"
+  execute "set <xLeft>=\e[1;*D"
+endif
 
 " Auto generate tags file on file write of *.c and *.h files
 autocmd BufWritePost *.c,*.cpp,*.h silent! !ctags . &
@@ -104,7 +113,6 @@ function! SynStack()
   echo map(synstack(line('.'), col('.')), 'synIDattr(v:val, "name")')
 endfunc
 
-" scroll popup windows with keybindings
 function! ScrollPopup(nlines)
     let winids = popup_list()
     if len(winids) == 0
@@ -127,7 +135,4 @@ function! ScrollPopup(nlines)
 
     call popup_setoptions(winids[0], {'firstline': firstline})
 endfunction
-
-nnoremap <C-Up> :call ScrollPopup(-3)<CR>
-nnoremap <C-Down> :call ScrollPopup(3)<CR>
 
