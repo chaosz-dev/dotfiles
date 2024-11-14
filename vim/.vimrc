@@ -19,6 +19,7 @@ set t_Co=256
 
 " usual highlights
 
+highlight Todo ctermfg=red
 highlight LineNr ctermfg=grey
 highlight TabLine ctermbg=none ctermfg=blue
 highlight TabLineFill ctermbg=none ctermfg=none cterm=none
