@@ -18,7 +18,6 @@ set updatetime=100
 set t_Co=256
 
 " usual highlights
-
 highlight Todo ctermfg=red
 highlight LineNr ctermfg=grey
 highlight TabLine ctermbg=none ctermfg=blue
@@ -28,6 +27,14 @@ highlight PmenuSbar ctermbg=black
 highlight PmenuThumb ctermbg=white
 highlight CursorLine cterm=bold
 highlight CursorLineNR cterm=bold ctermfg=white
+highlight VertSplit cterm=none
+
+" vimdiff highlights
+highlight DiffAdd ctermfg=165 ctermbg=none
+highlight DiffChange ctermfg=227 ctermbg=none
+highlight DiffDelete ctermfg=124 ctermbg=none
+highlight DiffText ctermfg=25 ctermbg=none
+highlight FoldColumn ctermbg=none
 
 " highlight for cpp stuff
 highlight cCustomClass ctermfg=red
@@ -80,6 +87,8 @@ Plug 'vim-airline/vim-airline'
 Plug 'luochen1990/rainbow'
 Plug 'ap/vim-css-color'
 Plug 'airblade/vim-gitgutter'
+Plug 'vim-autoformat/vim-autoformat'
+Plug 'guns/xterm-color-table.vim'
 call plug#end()
 
 " To work nice with tmux
@@ -104,6 +113,8 @@ function FormatBuffer()
 endfunction
  
 autocmd BufWritePre *.h,*.hpp,*.c,*.cpp,*.vert,*.frag :call FormatBuffer()
+
+autocmd BufWritePre *.py,*.js :Autoformat
 
 " get what highlighting applies to element under cursor
 " use: :call SynStack() in editor
