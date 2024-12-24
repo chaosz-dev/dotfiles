@@ -1,0 +1,272 @@
+
+(lua:2616): GLib-GObject-CRITICAL **: 21:03:16.790: invalid (NULL) pointer instance
+
+(lua:2616): GLib-GObject-CRITICAL **: 21:03:16.790: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:2616): GLib-GObject-CRITICAL **: 21:03:57.760: invalid (NULL) pointer instance
+
+(lua:2616): GLib-GObject-CRITICAL **: 21:03:57.761: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:2616): GLib-GObject-CRITICAL **: 21:04:01.179: invalid (NULL) pointer instance
+
+(lua:2616): GLib-GObject-CRITICAL **: 21:04:01.179: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:2616): GLib-GObject-CRITICAL **: 21:04:02.562: invalid (NULL) pointer instance
+
+(lua:2616): GLib-GObject-CRITICAL **: 21:04:02.562: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:2616): GLib-GObject-CRITICAL **: 21:04:15.210: invalid (NULL) pointer instance
+
+(lua:2616): GLib-GObject-CRITICAL **: 21:04:15.210: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:2616): GLib-GObject-CRITICAL **: 21:05:33.220: invalid (NULL) pointer instance
+
+(lua:2616): GLib-GObject-CRITICAL **: 21:05:33.222: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:2616): GLib-GObject-CRITICAL **: 21:06:19.649: invalid (NULL) pointer instance
+
+(lua:2616): GLib-GObject-CRITICAL **: 21:06:19.649: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:2616): GLib-GObject-CRITICAL **: 21:11:13.542: invalid (NULL) pointer instance
+
+(lua:2616): GLib-GObject-CRITICAL **: 21:11:13.542: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:2616): GLib-GObject-CRITICAL **: 21:12:44.296: invalid (NULL) pointer instance
+
+(lua:2616): GLib-GObject-CRITICAL **: 21:12:44.296: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:2616): GLib-GObject-CRITICAL **: 21:24:52.301: invalid (NULL) pointer instance
+
+(lua:2616): GLib-GObject-CRITICAL **: 21:24:52.301: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:2616): GLib-GObject-CRITICAL **: 21:26:57.382: invalid (NULL) pointer instance
+
+(lua:2616): GLib-GObject-CRITICAL **: 21:26:57.383: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:2616): GLib-GObject-CRITICAL **: 21:26:58.205: invalid (NULL) pointer instance
+
+(lua:2616): GLib-GObject-CRITICAL **: 21:26:58.205: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:2616): GLib-GObject-CRITICAL **: 21:26:59.857: invalid (NULL) pointer instance
+
+(lua:2616): GLib-GObject-CRITICAL **: 21:26:59.857: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.397: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.398: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.398: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.398: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.398: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.398: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.398: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.398: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.398: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.398: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.398: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.398: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.398: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.398: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.398: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.398: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.398: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.398: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.398: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.398: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.398: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.399: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.399: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.399: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.399: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.399: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.399: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.399: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.399: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.399: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.399: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.399: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.399: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.399: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.399: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.399: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.399: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.399: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.399: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.399: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.400: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.400: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.400: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.400: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.400: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.400: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.400: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.400: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.400: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.400: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.400: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.400: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.400: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+** (lua:2616): CRITICAL **: 21:47:39.400: astal_hyprland_hyprland_handle_event: assertion 'line != NULL' failed
+
+(lua:1046): GLib-GObject-CRITICAL **: 21:51:02.807: invalid (NULL) pointer instance
+
+(lua:1046): GLib-GObject-CRITICAL **: 21:51:02.817: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:1046): GLib-GObject-CRITICAL **: 21:51:21.107: invalid (NULL) pointer instance
+
+(lua:1046): GLib-GObject-CRITICAL **: 21:51:21.107: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:1046): GLib-GObject-CRITICAL **: 21:52:58.956: invalid (NULL) pointer instance
+
+(lua:1046): GLib-GObject-CRITICAL **: 21:52:58.957: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:1046): GLib-GObject-CRITICAL **: 21:54:17.032: invalid (NULL) pointer instance
+
+(lua:1046): GLib-GObject-CRITICAL **: 21:54:17.032: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:1046): GLib-GObject-CRITICAL **: 21:54:17.636: invalid (NULL) pointer instance
+
+(lua:1046): GLib-GObject-CRITICAL **: 21:54:17.636: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:1046): GLib-GObject-CRITICAL **: 21:54:45.228: invalid (NULL) pointer instance
+
+(lua:1046): GLib-GObject-CRITICAL **: 21:54:45.228: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:07:45.316: invalid (NULL) pointer instance
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:07:45.326: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:08:52.044: invalid (NULL) pointer instance
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:08:52.044: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:09:00.356: invalid (NULL) pointer instance
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:09:00.356: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:09:20.382: invalid (NULL) pointer instance
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:09:20.382: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:10:57.583: invalid (NULL) pointer instance
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:10:57.583: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:11:39.272: invalid (NULL) pointer instance
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:11:39.272: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:12:01.379: invalid (NULL) pointer instance
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:12:01.379: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:12:48.646: invalid (NULL) pointer instance
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:12:48.646: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:13:09.923: invalid (NULL) pointer instance
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:13:09.923: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:13:16.515: invalid (NULL) pointer instance
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:13:16.515: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:13:24.946: invalid (NULL) pointer instance
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:13:24.946: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:13:26.114: invalid (NULL) pointer instance
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:13:26.114: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:14:46.280: invalid (NULL) pointer instance
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:14:46.280: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:15:58.893: invalid (NULL) pointer instance
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:15:58.893: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:16:02.612: invalid (NULL) pointer instance
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:16:02.612: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:16:11.734: invalid (NULL) pointer instance
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:16:11.734: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:16:54.320: invalid (NULL) pointer instance
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:16:54.320: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:16:59.527: invalid (NULL) pointer instance
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:16:59.527: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:17:01.433: invalid (NULL) pointer instance
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:17:01.433: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:17:02.182: invalid (NULL) pointer instance
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:17:02.182: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:17:57.051: invalid (NULL) pointer instance
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:17:57.051: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:18:12.985: invalid (NULL) pointer instance
+
+(lua:34321): GLib-GObject-CRITICAL **: 23:18:12.986: g_signal_emit_by_name: assertion 'G_TYPE_CHECK_INSTANCE (instance)' failed
