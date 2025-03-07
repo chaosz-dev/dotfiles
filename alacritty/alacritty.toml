@@ -14,6 +14,12 @@
 [scrolling]
   history = 20000
 
+[keyboard]
+  bindings = [
+    { key="V", mods="Alt", mode="~Vi", action="ToggleViMode"  },
+    { key="Q", mods="None", mode="Vi", action="ToggleViMode"  },
+  ]
+
 [colors.primary]
 	background = '#000000'
 	foreground = '#FFFFFF' 

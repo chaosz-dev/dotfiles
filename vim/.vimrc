@@ -89,6 +89,7 @@ Plug 'ap/vim-css-color'
 Plug 'airblade/vim-gitgutter'
 Plug 'vim-autoformat/vim-autoformat'
 Plug 'guns/xterm-color-table.vim'
+Plug 'mechatroner/rainbow_csv'
 call plug#end()
 
 " To work nice with tmux
