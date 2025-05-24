@@ -51,7 +51,7 @@ function workspace()
 	  focused:as(function(client)
 	  return client and widget.Label({
 	    label = bind(client, "id"):as(function(v)
-        return "[" .. tostring(math.tointeger(v)) .. "]"
+        return "[" .. tostring(math.tointeger(v-1)) .. "]"
       end),
 	  })
 	  end),
@@ -66,7 +66,12 @@ return function(monitor)
         widget.CenterBox({
           workspace(),
           time(),
-          battery_box(),
+          widget.Box({
+            halign = "END",
+            children = {
+              battery_box()
+            },
+          }),
         })
     })
   end

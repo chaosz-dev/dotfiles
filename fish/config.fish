@@ -19,6 +19,7 @@ function fish_prompt
   set_color white; echo -n @
   set_color blue; echo -n (hostnamectl hostname)" "
   set_color white; echo -n (date '+%Y-%m-%d %H:%M:%S')" "
+  set_color yellow; echo -n battery: (cat /sys/class/power_supply/BAT1/capacity)%" "
   set_color blue; echo -n (pwd)
   set_color magenta; echo (fish_git_prompt)
   set_color white; echo "\$ "
