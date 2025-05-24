@@ -1,0 +1,33 @@
+#theme = "base16_transparent"
+theme = "github_dark_high_contrast"
+
+[editor]
+auto-format = true
+line-number = "relative"
+mouse = true
+bufferline = "multiple"
+
+[editor.statusline]
+left = ["mode", "spinner"]
+center = ["file-name", "version-control"]
+right = ["diagnostics", "selections", "primary-selection-length" , "position", "position-percentage", "file-type"]
+separator = "│"
+mode.normal = "NORMAL"
+mode.insert = "INSERT"
+mode.select = "SELECT"
+
+[editor.indent-guides]
+render = true
+character = "┆"
+skip_levels = 0
+
+[editor.lsp]
+display-inlay-hints = true
+
+[editor.inline-diagnostics]
+cursor-line = "hint"
+
+[keys.normal]
+C-left = ":buffer-previous"
+C-right = ":buffer-next"
+
