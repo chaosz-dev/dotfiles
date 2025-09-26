@@ -20,9 +20,14 @@ function fish_prompt
     set_color white
     echo -n @
     set_color blue
-    echo -n (hostname)" "
+    echo -n (hostnamectl hostname)" "
     set_color white
     echo -n (date '+%Y-%m-%d %H:%M:%S')" "
+    set_color yellow
+    echo -n battery: (cat /sys/class/power_supply/BAT1/capacity)%" "
+    if [ (cat /sys/class/power_supply/BAT1/uevent | grep "STATUS" | awk -F '=' '{print $2}') = Charging ]
+        echo -n "| c "
+    end
     set_color blue
     echo -n (pwd)
     set_color magenta
